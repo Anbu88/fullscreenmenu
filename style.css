@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #1f1f1f;
+	margin: 200px 0 0 0;
+	background-image: url(menu_bg.jpg);
+}
+a{
+	font-size:14px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	
+	color: #fff;
+	text-decoration:none;
+}
+#uno, #due, #tre{
+	padding: 20px 0 20px 0;
+	text-align:center;
+	background-color: rgba(0, 0, 0, 0);
+	-webkit-transition: all 0.5s ease-out;
+	margin: 5px 0 5px 0;
+}
+.border{
+	border-top: 1px dashed #fff;
+}
+#uno:hover, #due:hover, #tre:hover{
+	padding: 40px 0 40px 0;
+	background-color: rgba(0, 0, 0, 0.5)
+}
